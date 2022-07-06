@@ -9,12 +9,14 @@ body {
 
 .navbar img{
     height: 40px;
+    width: 200px;
 }
 li a{
     font-weight: bold;
 }
 a,
 button {
+    background-color: white;
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -33,10 +35,12 @@ a:hover {
   padding: 20px 20px;
    
 }
-
+.social,footer a{
+    background-color:transparent    ;
+}
 
 .row{
-    background-color: white;
+   
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -116,7 +120,9 @@ a:hover {
     font-weight: 600;
     line-height: 44px;
 }
+navbar img{
 
+}
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
@@ -451,7 +457,6 @@ h1{
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-    background-color: white;
     margin: 10px;
 }
 
@@ -499,7 +504,12 @@ h3 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+   
     
+}
+.portfolio-thumb img{
+    height: 270px;
+    width: 150px;
 }
 
 .portfolio-row {
@@ -531,10 +541,6 @@ h3 {
 }
 
 
-
-.bg-lines-h2-bg {
-    background-image: url("/img/background/lines-h2-bg.png");
-}
 /* page 2*/
 
 .navbar.row{

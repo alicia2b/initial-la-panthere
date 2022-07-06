@@ -12,22 +12,22 @@
 	<meta name="twitter:image" content="favicon.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
-	<link rel="shortcut icon" type="image/png" href="img/favicon/favicon.jpg">
+	<link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.jpg">
 	
 	<title>Agence La Panthère - Accueil</title>
 
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href=css/et-line.css>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome-min.css">
+	<link rel="stylesheet" type="text/css" href=./css/et-line-min.css>
 
   <!--Ajout de l'attribut pour le chargement Asynchrone de javascript-->  
-	<script src="js/jquery-2.1.0-min.js" defer></script>
-	<script src="js/bootstrap-min.js" defer></script>
-	<script src="js/blocs-min.js" defer></script>
-	<script src="js/jquery.touchSwipe-min.js" defer></script>
-	<script src="js/gmaps-min.js" defer></script>
+	<script src="./js/jquery-2.1.0-min.js" defer></script>
+	<script src="./js/bootstrap-min.js" defer></script>
+	<script src="./js/blocs-min.js" defer></script>
+	<script src="./js/jquery.touchSwipe-min.js" defer></script>
+	<script src="./js/gmaps-min.js" defer></script>
 <!--fin-->
 
     
@@ -39,10 +39,10 @@
 <body>
 <!-- Principal conteneur -->  
 <!-- bloc-0 -->
-	<section class=" bloc-sm">
+	<div class=" bloc-sm">
 		<nav class="navbar ">
 					<img src="img/logo/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" />
-				<button type="button" title="menu" role="navigation" aria-expanded="false" id="nav-toggle"  class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button type="button" title="menu"  aria-expanded="false" id="nav-toggle"  class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -51,16 +51,16 @@
 		
 			<div  class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
-					<li aria-label="liste">
+					<li >
 						<a href="index.html"  role="button" title="accueil" >Accueil</a>
 					</li>
-					<li aria-label="liste" >
-						<a href="Contact.html" role="button" title="contact" >contact</a>
+					<li  >
+						<a href="contact.html" role="button" title="contact" >contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-	</section>
+	</div>
 
 <!-- bloc-0 END -->
 <main>
@@ -143,7 +143,13 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, 
+					qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site.
+					 Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. 
+					 Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br>
+					<br>
+					<a role="button" class="btn btn-lg btn-clean btn-rd cta-hero " href="page2.html">Contactez nous</a>
+					<br>
 				</p>
 			</div>
 	</div>
@@ -166,7 +172,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/portfolio/2.jpg"data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+				<a href="#" data-lightbox="img/portfolio/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
 					<img src="img/portfolio/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
@@ -207,8 +213,10 @@
 	<div class="container bloc-lg texture-paper">
 		<div class="row">
 			<h2 class="mg-md text-center tc-white">
-				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
+				Prêt pour redonner vie à votre projet ?<br>
+				Contactez notre équipe !
 			</h2>
+
 				<a title="Contact" href="contact.html" role="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 		</div>
 	</div>
