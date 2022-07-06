@@ -147,6 +147,10 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    
+}
+.navbar-nav>li>a {
+    background-color: rgba(0, 0, 0, .01);
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
