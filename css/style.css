@@ -53,14 +53,28 @@ a:hover {
     flex-direction: column;
     width: 100%;
     padding: 20px;
+  
 }
 
+.header{
+    background-color: #F3976C;
+    opacity: 0.9;
+    color: black;
+}
 .bloc-md {
     padding: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+.bg-presentation {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../img/background/image-de-presentation.jpg);
+}
+.bg-lines-h2-bg {
+    background-image: url(../img/background/lines-h2-bg.jpg);
 }
 
 .bloc-sm {
@@ -103,6 +117,14 @@ a:hover {
 }
 
 
+.bg-banniere {
+    background-image: url(../img/background/agence-la-panthere.jpg);
+    background-color: #ef6e32;
+    background-position: top;
+    padding: 50px 0px;
+}
+
+    
 
 
 
